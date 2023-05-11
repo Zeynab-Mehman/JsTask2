@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.head-title{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+.head-title h4{
+    font-size: 35px;
+}
+
+.title-img{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+}
+.title-img .title{
+    width: 100%;
+    margin-right: 50px;
+}
+
+.title-img .title p{
+    line-height: 1.5;
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.end-sec{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+
+.end-sec .sec h3{
+    font-weight: bold;
+}
+
+.title-img .image{
+    position: relative;
+    left: 50px;
+}
+
+.title-img .image .zz{
+    width: 70%;
+    height: 100px;
+    margin-top: -60px;
+    position: relative;
+    z-index: -1;
+}
+
+.end-sec .end-img{
+    display: flex;
+    flex-direction: column;
+    width: 232px;
+    height: 203px;
+}
+
+.end-sec .end-img .tt{
+    width: 100%;
+    margin-top: -18px;
+}
+
+.end-sec .end-img .zz{
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    position: relative;
+    z-index: -1;
+    margin-top: -55px;
+}
+
+.end-sec .sec-cont {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 120;
+}
+
+@media(max-width:1210px){
+    .head-title{
+        max-width: 1000px;
+    }
+    .title-img{
+        max-width: 1000px;
+    }
+
+    .end-sec{
+        max-width: 1000px;
+    }
+    .title-img .title{
+        margin-right: 20px;
+    }
+    .title-img .image{
+        left: 0;
+    }
+    .title-img{
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media(max-width:1040px){
+    .head-title{
+        max-width: 800px;
+    }
+    .title-img{
+        max-width: 800px;
+    }
+
+    .end-sec{
+        max-width: 800px;
+    }
+    .title-img .title p{
+        font-size: 20px;
+    }
+
+    .end-sec .end-img{
+        display: none;
+    }
+}
+
+
+@media(max-width:830px){
+    .head-title{
+        max-width: 600px;
+    }
+    .title-img{
+        max-width: 600px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .end-sec{
+        max-width: 600px;
+    }
+    .end-sec .sec-cont{
+        justify-content: end;
+    }
+}
